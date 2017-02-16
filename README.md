@@ -42,22 +42,21 @@ The struct is as follows:
 ## Sample Document
 
 ```jsonjson
-{
-"author": [
- "My Name",
-  "Someone Else's Name",
-],
- "description": "An in-depth sample document for the JSON-JSON spec",
-  "name": "Sample Document",
-   "created_at": 1751251,
-    "updated_at": null,
-     "document": {
-      "a_key": {
-       "another_key": "a value"
-      },
-       "flexibility": "this defines JSON-JSON"
-     },
-      "aCustomKey": "and a value",
-       "andAnother": "these must be PascalCase"
+{ "author": 
+  [ "My Name"
+  , "Someone Else's Name"
+  ]
+, "description": "An in-depth sample document for the JSON-JSON spec"
+, "name": "Sample Document"
+, "created_at": 1751251
+, "updated_at": null
+, "document": {
+  { "a_key":
+    { "another_key": "a value" 
+    }
+  , "flexibility": "this defines JSON-JSON"
+  }
+, "aCustomKey": "and a value"
+, "andAnother": "these must be PascalCase"
 }
 ```
